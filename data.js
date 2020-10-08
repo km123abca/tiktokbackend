@@ -16,4 +16,5 @@ const data = [
     shares: "500",
   },
 ];
-module.exports = data;
+// module.exports = data;
+export default data;
