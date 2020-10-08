@@ -1,10 +1,11 @@
 import express from "express";
 import mongoose from "mongoose";
 import data from "./data.js";
+import tiktokVideos from "./dbModel.js";
 // const express = require("express");
 // const mongoose = require("mongoose");
 // const data = require("./data");
-const tiktokVideos = require("./dbModel");
+// const tiktokVideos = require("./dbModel");
 
 const port = 9000;
 
