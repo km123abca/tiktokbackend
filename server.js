@@ -39,8 +39,8 @@ app.use((req, res, next) => {
 /* or */
 /*
 app.use((req, res, next) => {
-  res.setHeaders("Access-Control-Allow-Origin", "*"),
-    res.setHeaders("Access-Control-Allow-Headers", "*"),
+  res.setHeader("Access-Control-Allow-Origin", "*"),
+    res.setHeader("Access-Control-Allow-Headers", "*"),
     next();
 });*/
 app.get("/", (req, res) => res.status(200).send("hello world"));
